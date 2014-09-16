@@ -51,11 +51,11 @@ charset=utf-8">
 <pre><?php echo print_r($mixed); ?></pre><br>
 
 <h2>Associative arrays</h2>
-<?php $assoc = array("first_name" => "Sinu_eesnimi", "last_name" => "Sinu_perekonnanimi"); ?>
+<?php $assoc = array("first_name" => "Jason Max", "last_name" => "Värk"); ?>
 <?php echo $assoc["first_name"]; echo " ";  echo $assoc["last_name"] ?><br>
 
 
-<?php $assoc["e-post"] = "Sinu_e-post"; ?>
+<?php $assoc["e-post"] = "jason-max.vark@khk.ee"; ?>
 <?php $assoc["first_name"] = "Peeter" ?>
 
 <?php echo "Minu nimi on " . $assoc["first_name"] . " " . $assoc["last_name"] . '. Minu e-post on ' . $assoc["e-post"]; ?><br>
